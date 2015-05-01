@@ -9,7 +9,7 @@ int main()
 	srand(time(0));
 	int randNum = rand() % 100 + 1;
 	int x, i;
-	
+	{
 	for (i = 1; i < 11; i++)
 	{
 		cout << "Guess #" << i << ": ";
@@ -34,6 +34,17 @@ int main()
 	else 
 	{
 		cout << "You Win!";
+	}
+	{
+		int yes, no;
+		cout << "Would you like to play again?"; 
+		cin >> yes, no;
+		while (true)
+		{
+			if (int == no);
+				break;
+		}
+	}
 	}
 
 	cout << endl;
